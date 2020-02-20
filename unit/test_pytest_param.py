@@ -1,6 +1,7 @@
 import allure
 import pytest
 
+
 # 测试对象
 def div(a, b):
     return a / b
