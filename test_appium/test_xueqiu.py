@@ -32,4 +32,5 @@ class TestXueQiu:
         # 点击搜索到的结果
         self.driver.find_element(MobileBy.XPATH, "//*[@text='阿里巴巴-SW' and contains(@resource-id, 'stockName')]").click()
         # 断言股价大于200
-        assert float(self.driver.find_element(MobileBy.XPATH, "//*[contains(@resource-id,'stock_current_price')]").text) > 200
+        price = float(self.driver.find_element(MobileBy.XPATH, "//*[contains(@resource-id,'stock_current_price')]").get_attribute('text'))
+        assert price > 200
