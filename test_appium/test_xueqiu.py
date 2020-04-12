@@ -6,7 +6,7 @@ class TestXueQiu:
     def setup(self):
         caps = {}
         caps['platformName'] = 'Android'
-        caps['deviceName'] = 'emulator-5554'
+        caps['deviceName'] = '741AECSM28QR7'
         caps['appPackage'] = 'com.xueqiu.android'
         caps['appActivity'] = '.view.WelcomeActivityAlias'
         # 是否清理数据
@@ -17,7 +17,9 @@ class TestXueQiu:
         caps['resetKeyboard'] = True
 
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', caps)
+        # 显示等待
         self.driver.implicitly_wait(30)
+        # 隐式等待
 
     def test_price(self):
         # 点击搜索框
