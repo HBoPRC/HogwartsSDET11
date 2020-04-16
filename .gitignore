@@ -1,2 +1,2 @@
-/venv/
-/unit/.pytest_cache/
+.allure_result/
+.pytest_cache/
