@@ -9,7 +9,6 @@ class TestDemo(unittest.TestCase):
     def tearDown(self) -> None:
         print('tearDown')
 
-
     def test_sum(self):
         x = 1 + 2
         print(x)

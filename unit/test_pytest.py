@@ -7,8 +7,8 @@ def test_result1():
 
 
 def test_result2():
-    assert div(1, 0) == 1/0
+    assert div(1, 0) == 1 / 0
 
 
 def test_result3():
-    assert div('a', 'b') == 'a'/'b'
+    assert div('a', 'b') == 'a' / 'b'
