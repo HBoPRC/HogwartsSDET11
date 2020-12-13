@@ -1,2 +1,4 @@
+/venv/
+/.idea/
 .allure_result/
 .pytest_cache/
