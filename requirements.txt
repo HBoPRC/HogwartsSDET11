@@ -1,5 +1,5 @@
 allure-pytest==2.9.43
-Flask==2.0.1
+Flask==2.2.5
 pytest==6.2.5
 PyYAML==5.4.1
 requests==2.26.0
