@@ -2,5 +2,5 @@ allure-pytest==2.9.43
 Flask==2.0.1
 pytest==6.2.5
 PyYAML==5.4.1
-requests==2.26.0
+requests==2.31.0
 selenium==3.141.0
